@@ -11,6 +11,56 @@
 body {
   overflow-x: hidden;
 }
+/* main */
+.btn {
+  padding: 12px 24px;
+
+  display: inline-block;
+  opacity: 0.9;
+  border-radius: 4px;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+.btn a {
+  padding: 12px 40px;
+  color: rgb(215, 214, 214);
+}
+.message {
+  position: relative;
+  bottom: 550px;
+  margin-left: 500px;
+  padding: 15px 40px;
+  background-color: rgba(158, 42, 43, 1);
+  cursor: pointer;
+  box-shadow: 0 7px #ffffff;
+}
+.message:active {
+  box-shadow: none;
+  position: relative;
+  top: -540px;
+}
+.main-content h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  font-size: 48px;
+  position: relative;
+  bottom: 730px;
+  margin-left: 10px;
+  color: red;
+}
+.main-content p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  position: relative;
+  bottom: 730px;
+  margin-left: 275px;
+  color: rgba(158, 42, 43, 1);
+}
+.main-content img {
+  opacity: 0.7;
+}
 /* Navbar */
 nav {
   width: 100%;
