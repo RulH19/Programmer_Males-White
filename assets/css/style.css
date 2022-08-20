@@ -107,7 +107,7 @@ section img:hover {
   opacity: 1;
 }
 .thumbnail section p {
-  color: #fff;
+  color: rgba(255, 255, 255, 0.7);
 }
 /* End thumbnail */
 
@@ -119,28 +119,56 @@ section img:hover {
   margin-top: 20px;
 }
 .content-theory h2 {
+  text-align: center;
+  font-size: 52px;
+  font-weight: bold;
   padding-top: 100px;
-  margin-top: -20px;
+  padding-left: 130px;
 }
-
-.content-theory h2 {
-  margin-top: 20px;
-  margin-left: 130px;
+section div:nth-child(2) h2,
+.rumah {
+  color: rgba(255, 255, 255, 0.7);
+  background-color: rgb(158, 42, 43);
+  padding-bottom: 50px;
 }
 section div:nth-child(2) h2 {
-  margin-left: 85px;
+  padding-left: 85px;
+  margin-top: 53px;
+  color: #fff;
 }
 
 section div:nth-child(3) h2 {
-  margin-left: 85px;
+  padding-left: 100px;
+}
+section div:nth-child(4) h2,
+.alat {
+  color: rgba(255, 255, 255, 0.7);
+  background-color: rgb(158, 42, 43);
+  padding-bottom: 50px;
 }
 section div:nth-child(4) h2 {
-  margin-left: 110px;
+  padding-left: 110px;
+  margin-top: 55px;
+  color: #fff;
+}
+
+section div:nth-child(5) h2 {
+  margin-bottom: 35px;
+}
+section div:nth-child(6) h2,
+.agama {
+  color: rgba(255, 255, 255, 0.7);
+  background-color: rgb(158, 42, 43);
+  padding-bottom: 50px;
+}
+section div:nth-child(6) h2 {
+  color: #fff;
 }
 
 .content-theory img {
-  width: 300px;
-  margin: 0 20px;
+  width: 350px;
+  height: 300px;
+  margin: 50px 20px;
   border-radius: 20px;
   transition: 0.3s;
 }
@@ -152,8 +180,12 @@ section img:hover {
   display: flex;
 }
 .content-theory div span {
-  margin-top: 30px;
-  line-height: 25px;
+  margin-top: 45px;
+  line-height: 35px;
+  font-size: 20px;
+}
+.content-theory div span p {
+  text-indent: 0.5in;
 }
 
 /* end Theory */
