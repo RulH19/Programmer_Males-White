@@ -2,10 +2,10 @@
 * {
   padding: 0;
   margin: 0;
+  font-family: 'DynaPuff', cursive;
   box-sizing: border-box;
   text-decoration: none;
   list-style: none;
-  font-family: 'DynaPuff', cursive;
   scroll-behavior: smooth;
 }
 body {
@@ -51,15 +51,20 @@ nav ul li a:hover {
 }
 h1 {
   color: #fff;
-  margin-top: -100px;
-  padding-top: 200px;
+  padding-top: 20px;
   font-size: 42px;
   text-align: center;
+  z-index: 999;
 }
 
 #culture {
   background-color: rgb(158, 42, 43);
   padding-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
 }
 /* End main-content */
 
@@ -92,12 +97,6 @@ div section:nth-child(5) img {
 div section:nth-child(6) img {
   width: 330px;
 }
-section {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-direction: column;
-}
 section img {
   margin: 20px 20px 0;
   border-radius: 20px;
@@ -113,9 +112,35 @@ section img:hover {
 /* End thumbnail */
 
 /* Theory */
+.content-theory {
+  display: flex;
+
+  flex-direction: column;
+  margin-top: 20px;
+}
+.content-theory h2 {
+  padding-top: 100px;
+  margin-top: -20px;
+}
+
+.content-theory h2 {
+  margin-top: 20px;
+  margin-left: 130px;
+}
+section div:nth-child(2) h2 {
+  margin-left: 85px;
+}
+
+section div:nth-child(3) h2 {
+  margin-left: 85px;
+}
+section div:nth-child(4) h2 {
+  margin-left: 110px;
+}
+
 .content-theory img {
   width: 300px;
-  margin: 20px 20px 0;
+  margin: 0 20px;
   border-radius: 20px;
   transition: 0.3s;
 }
@@ -123,4 +148,12 @@ section img:hover {
   transform: rotate(5deg);
   opacity: 1;
 }
+.content-theory div {
+  display: flex;
+}
+.content-theory div span {
+  margin-top: 30px;
+  line-height: 25px;
+}
+
 /* end Theory */
