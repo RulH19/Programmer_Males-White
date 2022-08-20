@@ -8,7 +8,7 @@ Kami akan mendemokan website yang telah kami buat.
 Dengan tema Web Aku Cinta Indonesia.
 
 Ide membuat Web ini berawal dari ketika hari ulang tahun NKRI ke 77 tahun kami melihat
-masih banyak masyarakat yang tidak tau dan enggan untuk tau apa saja kebudayaan yang ada di Indonesia.
+masih banyak masyarakat yang kurang mengetahui apa saja kebudayaan yang ada di Indonesia.
 Mereka hanya mengetahui ketika menonton televisi yang menayangkan acara Upacara kemerdekaan di Istana Negara.
 Yang dimana di saat Upacara tersebut para tamu hadirin termasuk presiden mengenakan baju Adat dari masing Provinsi.
 Sehingga kami mempunyai ide agar masyarakat dapat mengenal Indonesia kapan saja dan di mana saja tanpa harus menunggu Upacara
@@ -21,5 +21,5 @@ Adapaun fitur yang kami buat terdiri dari : Sebuah navigasi responsive dimana ak
 toggle ketika web kami dibuka di smartphone, web kami juga akan menyesuaikan ukuran berdasarkan device yang di gunakan.
 Fitur content yang kami sediakan terdiri dari : Tarian, Pakaian, Rumah, Alat Musik, Suku dan Agama.
 
-Semoga para pengunjung web menjadi lebih mengenal Indonesia lebih dalam sehingga menumbuhkan rasa cinta tanah air
+Semoga para pengunjung web menjadi lebih mengenal Indonesia lebih dalam, sehingga menumbuhkan rasa cinta tanah air
 dan dapat melestarikan keanekaragaman budaya di Indonesia.
