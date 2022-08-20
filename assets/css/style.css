@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&display=swap');
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
   text-decoration: none;
   list-style: none;
+  font-family: 'DynaPuff', cursive;
+  scroll-behavior: smooth;
 }
 body {
   overflow-x: hidden;
@@ -12,7 +15,7 @@ body {
 nav {
   width: 100%;
   height: 80px;
-  background-color: grey;
+  background-color: rgba(158, 42, 43, 0.9);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -40,3 +43,84 @@ nav ul li a:hover {
   transition: 0.1s;
 }
 /* End Navbar */
+
+/* Main-content*/
+.main-content img {
+  width: 100%;
+  margin-top: -50px;
+}
+h1 {
+  color: #fff;
+  margin-top: -100px;
+  padding-top: 200px;
+  font-size: 42px;
+  text-align: center;
+}
+
+#culture {
+  background-color: rgb(158, 42, 43);
+  padding-bottom: 20px;
+}
+/* End main-content */
+
+/* thumbnail */
+
+.thumbnail {
+  display: flex;
+  flex-wrap: wrap;
+}
+div section:nth-child(1) img {
+  width: 300px;
+}
+div section:nth-child(2) img {
+  width: 350px;
+}
+div section:nth-child(3) img {
+  width: 340px;
+}
+div section:nth-child(4) img {
+  width: 300px;
+  margin-left: 150px;
+}
+div section:nth-child(4) p {
+  margin-left: 130px;
+}
+div section:nth-child(5) img {
+  width: 350px;
+  height: 220px;
+}
+div section:nth-child(6) img {
+  width: 330px;
+}
+section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+section img {
+  margin: 20px 20px 0;
+  border-radius: 20px;
+  transition: 0.3s;
+}
+section img:hover {
+  transform: rotate(5deg);
+  opacity: 1;
+}
+.thumbnail section p {
+  color: #fff;
+}
+/* End thumbnail */
+
+/* Theory */
+.content-theory img {
+  width: 300px;
+  margin: 20px 20px 0;
+  border-radius: 20px;
+  transition: 0.3s;
+}
+section img:hover {
+  transform: rotate(5deg);
+  opacity: 1;
+}
+/* end Theory */
