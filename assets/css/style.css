@@ -189,3 +189,33 @@ section img:hover {
 }
 
 /* end Theory */
+
+/* footer */
+footer {
+  background-color: rgb(70, 8, 9);
+}
+footer section {
+  display: flex;
+  justify-content: space-evenly;
+}
+footer section a {
+  font-family: sans-serif;
+  color: rgba(255, 255, 255, 0.7);
+  line-height: 150px;
+}
+footer section a:hover {
+  color: rgba(255, 255, 255, 1);
+}
+footer img {
+  width: 8%;
+  height: 10%;
+  margin-top: 40px;
+}
+footer p {
+  color: rgba(255, 255, 255, 0.7);
+  background-color: rgb(58, 1, 2);
+  font-family: sans-serif;
+  text-align: center;
+  padding: 10px;
+}
+/* End Footer */
