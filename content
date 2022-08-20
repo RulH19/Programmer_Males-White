@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ragam Indonesia</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=DynaPuff&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: 'DynaPuff', cursive;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        header {
+            height: auto;
+            width: 100%;
+            text-align: center;
+            background-color: red;
+            margin-top: 1rem;
+        }
+
+        header h1 {
+            font-size: 50px;
+            padding-top:1rem 1rem;
+            color: white;
+        }
+
+        .image p {
+            position: absolute;
+        }
+        
+        .img {
+            position: absolute;
+            width: 300px;
+            box-sizing: border-box;
+            border-radius: 20px;
+        }
+
+        .hoverfade {
+            opacity: 0.3;
+            transition: 0.3s;
+        }
+
+        .hoverfade:hover {
+            opacity: 1;
+        }
+
+        .rotatetrans {
+            transform: rotate(0deg);
+            transition: 0.3s;
+        }
+
+        .rotatetrans:hover {
+            transform: rotate(5deg);
+        }
+
+        section.container {
+            margin-left: 10rem;
+            margin-bottom: 25rem;
+            padding-bottom: 22rem;
+        }
+
+        .content {
+            margin-bottom: -10rem;
+            padding-left: 4rem;
+        }
+
+        .desc p {
+            margin-bottom: 2rem;
+            padding-left: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>INDONESIAKU</h1> 
+    </header>
+
+    <section class="container">
+        <div class="images">
+            <div class="image">
+                <a href="#1">
+                    <img class="img rotatetrans card hoverfade" style="margin-left: 6rem;margin-top: 24rem;"src="tari-pendet-terkenal-di-dunia.jpg" alt="">
+                </a>
+                <p style="margin-left: 12rem;margin-top: 22rem;opacity: 1;">Tarian Adat</p>
+            </div>
+            <div class="image">
+                <a href="#2">
+                    <img class="img rotatetrans hoverfade" style="margin-left: 20rem;margin-top: 18rem;"src="rumah-bolon-wikipedia.jpg" alt="">
+                </a>
+                <p style="margin-left: 27rem;margin-top: 16rem;">Rumah Adat</p>
+            </div>
+            <div class="image">
+                <a href="#3">
+                    <img class="img rotatetrans hoverfade" style="margin-left: 35rem;margin-top: 23rem;"src="pakaian-adat.width-800.jpegquality-80.jpg" alt="">
+                </a>
+                <p style="margin-left: 42rem;margin-top: 21rem;">Pakaian Adat</p>
+            </div>
+            <div class="image">
+                <a href="#4">
+                    <img class="img rotatetrans hoverfade" style="margin-left: 50rem;margin-top: 15rem;"src="6e8b3b0b748174ddf9e3cb2e105f52a4-014416600_1471254150-Angklung_.jpg" alt="">
+                </a>
+                <p style="margin-left: 56rem;margin-top: 13rem;">Alat Musik</p>
+            </div>
+            <div class="image">
+                <a href="#5">
+                    <img class="img rotatetrans hoverfade" style="margin-left: 65rem;margin-top: 20rem;"src="081442200_1440219237-20150822-Festival-Pontianak-Suku-Dayak-Landak4.jpg" alt="">
+                </a>
+                <p style="margin-left: 72rem;margin-top: 18rem;">Suku</p>
+            </div> 
+            <div class="image">
+                <a href="#6">
+                    <img class="img rotatetrans hoverfade" style="margin-left: 80rem;margin-top: 10rem;width: 300px;"src="bc5deb213bc8ca8aeb56b7d79f6fbcf0.jpg" alt="">
+                </a>
+                <p style="margin-left: 88rem;margin-top: 8rem;">Agama</p>
+            </div>       
+        </div>
+    </section>
+
+    <div class="contents">
+        <div class="content">
+            <div id="1" class="tarian" style="display:flex;margin: left 6rem;margin-right:6rem;height:100vh;align-items:center;">
+                <div>
+                    <img class="img rotatetrans" style="width: 300px;"src="tari-pendet-terkenal-di-dunia.jpg" alt="">
+                </div>
+                <div class="heading" style="font-size:4rem;padding-left:4rem;margin-bottom: 16rem;">Tarian Adat</div>
+                <div class="desc"style="font-size:2rem;margin-left:4rem;font-family:'Courier New', Courier, monospace">
+                    <p>Tari daerah atau tari tradisional adalah tari yang tumbuh di kalangan masyarakat sesuai letak geografisnya. Tari daerah kerap berasal dari suku-suku tertentu, sehingga sejumlah tari di provinsi yang berdekatan dapat memiliki tari daerah yang sama atau mirip.</p>
+                    <p>Tari daerah berfungsi untuk sejumlah kegiatan di masa lalu, seperti penyambutan atau persembahan, doa, penghiburan, permainan, dan laga. Karena itu, ada sejumlah tari di berbagai daerah memiliki nama yang artinya mirip sesuai fungsinya. Tetapi, tari tradisional ini memiliki ciri khasnya tersendiri di setiap daerah.</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="content">
+            <div id="2" class="rumah" style="display:flex;margin: left 6rem;margin-right:6rem;height:100vh;align-items:center;">
+                <div>
+                    <img class="img rotatetrans" style="width: 300px;"src="rumah-bolon-wikipedia.jpg" alt="">
+                </div>
+                <div class="heading" style="font-size:4rem;padding-left:4rem;margin-bottom: 16rem;">Rumah Adat</div>
+                <div class="desc"style="font-size:2rem;margin-left:4rem;font-family:'Courier New', Courier, monospace">
+                    <p>Indonesia sangatlah kaya akan keberagaman, baik budaya, suku, ras, dan agamanya. Selain itu, di Indonesia juga memiliki sekitar 34 rumah adat yang berbeda-beda di setiap provinsi.</p>
+                    <p>Berbagai rumah adat provinsi tersebut tentunya juga memiliki keunikan, fungsi, dan ciri khasnya masing-masing. Keanekaragaman inilah yang membuat Indonesia menjadi negara yang kuat.</p>
+                </div>
+            </div>
+        </div>
+    
+        <div class="content">
+            <div id="3" class="pakaian" style="display:flex;margin: left 6rem;margin-right:6rem;height:100vh;align-items:center;">
+                <div>
+                    <img class="img rotatetrans" style="width: 300px;"src="pakaian-adat.width-800.jpegquality-80.jpg" alt="">
+                </div>
+                <div class="heading" style="font-size:4rem;padding-left:4rem;margin-bottom: 16rem;">pakaian Adat</div>
+                <div class="desc"style="font-size:2rem;margin-left:4rem;font-family:'Courier New', Courier, monospace">
+                    <p>Sebagai warga negara Indonesia, sudah tahukah kamu tentang baju adat Indonesia yang beragam? Jika belum tahu, yuk tambah wawasan kita tentang budaya Indonesia yang kaya dan menyimak pakaian adat Indonesia dari seluruh provinsi di sini!</p>
+                    <p>Pakaian adat merupakan salah satu bentuk dari identitas dan jati diri sebuah daerah. Busana ini dikenakan untuk mewakili budaya atau identitas kelompok suku bangsa tertentu. Di Indonesia sendiri, pakaian adat umumnya digunakan untuk merayakan acara-acara istimewa.</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="content">
+            <div id="4" class="musik" style="display:flex;margin: left 6rem;margin-right:6rem;height:100vh;align-items:center;">
+                <div>
+                    <img class="img rotatetrans" style="width: 300px;"src="6e8b3b0b748174ddf9e3cb2e105f52a4-014416600_1471254150-Angklung_.jpg" alt="">
+                </div>
+                <div class="heading" style="font-size:4rem;padding-left:4rem;margin-bottom: 16rem;">Alat Musik</div>
+                <div class="desc"style="font-size:2rem;margin-left:4rem;font-family:'Courier New', Courier, monospace">
+                    <p>Indonesia adalah negeri yang sangat kaya dengan nilai budayanya. Dari ragam bahasa, budaya, dan adat istiadat. Semua elemen tersebut akhirnya berhasil menciptakan kesenian adat yang menggambarkan setiap daerah di Indonesia.</p>
+                    <p>Jika berbicara tentang kesenian adat, rasanya tidak mungkin jika melewatkan alat musik tradisional Indonesia. Beragamnya alat musik tradisional menjadi hal yang seharusnya dilestarikan dan dibanggakan oleh seluruh penduduk Indonesia. Sayangnya, kesenian adat sudah mulai ditinggalkan di era modern seperti sekarang ini.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="content">
+            <div id="5" class="suku" style="display:flex;margin: left 6rem;margin-right:6rem;height:100vh;align-items:center;">
+                <div>
+                    <img class="img rotatetrans" style="width: 300px;"src="081442200_1440219237-20150822-Festival-Pontianak-Suku-Dayak-Landak4.jpg" alt="">
+                </div>
+                <div class="heading" style="font-size:4rem;padding-left:4rem;margin-bottom: 16rem;">Suku</div>
+                <div class="desc"style="font-size:2rem;margin-left:4rem;font-family:'Courier New', Courier, monospace">
+                    <p>Indonesia terdiri dari berbagai macam budaya, dengan banyaknya nama nama suku di Indonesia. Kehadiran suku, sekaligus menjadi pengelompokkan etnis atau suatu golongan, di mana anggota kelompok dapat dengan mudah diidentifikasi berdasarkan garis keturunannya.</p>
+                    <p>Setiap suku bangsa memiliki ciri khas dan keunikan masing-masing, meskipun begitu Indonesia tetap satu. Itu mengacu pada semboyan negara Indonesia 'Bhinneka Tunggal Ika' yang berarti, berbeda-beda tetap satu jua.</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="content">
+            <div id="6" class="agama" style="display:flex;margin: left 6rem;margin-right:6rem;height:100vh;align-items:center;">
+                <div>
+                    <img class="img rotatetrans" style="width: 300px;"src="bc5deb213bc8ca8aeb56b7d79f6fbcf0.jpg" alt="">
+                </div>
+                <div class="heading" style="font-size:4rem;padding-left:4rem;margin-bottom: 16rem;">Agama</div>
+                <div class="desc"style="font-size:2rem;margin-left:4rem;font-family:'Courier New', Courier, monospace">
+                    <p>Negara Kesatuan Republik Indonesia seperti yang kita ketahui memiliki beragam suku, kebudayaan, dan kepercayaan. Setiap kepercayaan sendiri memiliki perbedaan antara satu sama lain yang membuat seringkali memunculkan perbedaan pendapat antara satu kepercayaan dengan kepercayaan lainnya.</p>
+                    <p>Di Indonesia sendiri, terdapat enam agama yang sudah diakui dan hidup berdampingan dalam lingkungan masyarakat dengan menghargai nilai yang dianut satu sama lain. Enam agama yang sudah diakui di Indonesia adalah Islam, Kristen Protestan, Kristen Katolik, Hindu, Buddha, dan Konghucu. Berikut penjelasan mengenai setiap agama tersebut.</p>
+                </div>
+            </div>
+        </div> 
+    </div>
+</body>
+</html>
